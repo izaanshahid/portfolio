@@ -141,11 +141,11 @@ export const skills = [
         image:
           "https://static-00.iconduck.com/assets.00/google-cloud-platform-logo-icon-2048x1824-pg4wzspq.png",
       },
-      {
-        name: "Docker",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
-      },
+      // {
+      //   name: "Docker",
+      //   image:
+      //     "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
+      // },
       // {
       //   name: "Jenkins",
       //   image:
@@ -228,7 +228,7 @@ export const skills = [
       {
         name: "Google Colab",
         image:
-          "https://assets.stickpng.com/images/63c2e4c9c4baad4ce22bf9ef.png",
+          "https://colab.research.google.com/img/colab_favicon_256px.png",
       },
       // {
       //   name: "Sk Learn Kit",
@@ -414,6 +414,7 @@ export const projects = [
   {
     id: 11,
     title: "Spotify (clone)",
+    image:"https://private-user-images.githubusercontent.com/62205475/307585622-55227871-3888-4259-9af4-f9e9169420d7.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDg4NjEyNzEsIm5iZiI6MTcwODg2MDk3MSwicGF0aCI6Ii82MjIwNTQ3NS8zMDc1ODU2MjItNTUyMjc4NzEtMzg4OC00MjU5LTlhZjQtZjllOTE2OTQyMGQ3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAyMjUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMjI1VDExMzYxMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWJiMGZlZWIwYjI3ZmMwMDA2MWVjZDdkNmEwNWY0MTlhMWQ3NzU4NGFkYmI5NTY0N2U5NTk4ODhhYjdkYzg5ODYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.1edLJtirpW_h5Bmj4U1E7z_ncCwW_pNAYJoYGtdx5gE",
     description:
       "Developed a Spotify clone mobile application using React Native, StepZen, and GraphQL. Integrated StepZen and GraphQL to efficiently manage and retrieve music data. Implemented a component-based UI development approach. Utilized GraphQL subscriptions to implement real-time updates, ensuring users receive instant notifications",
     // image:
@@ -435,6 +436,7 @@ export const projects = [
     id: 9,
     title: "Hemo",
     date: "Jun 2023 - Jul 2023",
+    image:"https://github-production-user-asset-6210df.s3.amazonaws.com/62205475/307584724-ace7b4a6-7204-4cf5-ae04-f81f8dbdacd7.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240225%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240225T105058Z&X-Amz-Expires=300&X-Amz-Signature=cfde65e84a742ff9fa114d81aacf9117044e53ef0fc2a1be417532758a195504&X-Amz-SignedHeaders=host&actor_id=62205475&key_id=0&repo_id=643735605",
     description:"A location specific mobile blood donation application using React Native and MongoDB. Implemented query optimization techniques in MongoDB to enhance database performance. User-centric design contributed to increased user engagement, reflected in higher user interaction. Received recognition of top 10 final year projects for Hemo, showcasing the project's innovation",
     tags: [
       "React Native",
@@ -453,6 +455,7 @@ export const projects = [
     id: 0,
     title: "iOS lock screen",
     date: "Apr 2023 - May 2023",
+    image:"https://private-user-images.githubusercontent.com/62205475/307586686-cc264794-b53f-444c-8410-770f13182c67.PNG?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDg4NjEzNjgsIm5iZiI6MTcwODg2MTA2OCwicGF0aCI6Ii82MjIwNTQ3NS8zMDc1ODY2ODYtY2MyNjQ3OTQtYjUzZi00NDRjLTg0MTAtNzcwZjEzMTgyYzY3LlBORz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAyMjUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMjI1VDExMzc0OFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTkwMGVmNzA3MWU4MWI4MGFiYjUzM2MyZWY4NDJiMzAwNTcyNWNkNmM0NWUxZTQyMDM1NmIzZTA1YjkwMjExNTEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.uOdoAhwLJYfbi6w384s8RwwZKohcn0S-Q2OcSZO_HUc",
     description:"Developed the lock screen of iOS in react native using react animated for smooth transitions and animations",
     tags: ["React Native","React Animated", "Redux"],
     category: "React Native",
@@ -477,6 +480,7 @@ export const projects = [
     id: 1,
     title: "BMI Calculator",
     date: "Oct 2022 - Jan 2023",
+    image:"https://private-user-images.githubusercontent.com/62205475/307587217-60259343-6f13-4ef5-ab87-3baf878a80d4.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDg4NjEwMjUsIm5iZiI6MTcwODg2MDcyNSwicGF0aCI6Ii82MjIwNTQ3NS8zMDc1ODcyMTctNjAyNTkzNDMtNmYxMy00ZWY1LWFiODctM2JhZjg3OGE4MGQ0LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAyMjUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMjI1VDExMzIwNVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWViNTQ3OTA0YTMxYzQzZmZlZDliZWZhNThmYjFmNDc5Y2E5MDA3MGU2MzQwNmYyZjg2MzIzMzE0OGE2NmM3MWEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.vEuCn8owYbQvtk5JVUb-hoJl0nOuSL9urgySGUmedJk",
     description:"Developed a Body Mass Index calculator. Based on the user’s weight and height it will calculate their body mass and give a piece of health advice depending on whether if they have eaten too many pies or if they need to eat more pies.",
     tags: [
       "Swift",
@@ -488,12 +492,13 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Xylophone App",
+    title: "Quiz App",
     date: "Jan 2023 - Mar 2023",
-    description:"Developed a xylophone app in which the user can play a tune depending on which different buttons associated with xylophone.",
+    image:"https://private-user-images.githubusercontent.com/62205475/307587335-4cb66fd2-2632-4f17-9416-5baf3ce81167.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDg4NjExNjgsIm5iZiI6MTcwODg2MDg2OCwicGF0aCI6Ii82MjIwNTQ3NS8zMDc1ODczMzUtNGNiNjZmZDItMjYzMi00ZjE3LTk0MTYtNWJhZjNjZTgxMTY3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAyMjUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMjI1VDExMzQyOFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTQ1ZDFjN2EyMWQ5MThkOGIwOTgwNDlhZTEzMmQ1YmYzMzhiMmIwMjFmZTBhMzhiMzFiYTA2MTkwYzNhNTJmMDMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.DHLXa9KkHaqOQWr7upOc8_m4R40y6fXDK_eLhP8jgGI",
+    description:"Developed a Quiz app in which a user can select between true or false and get his score accordingly",
     tags: ["Swift", "SwiftUI"],
     category: "iOS",
-    github: "https://github.com/izaanshahid/Xylophone-app",
+    github: "https://github.com/izaanshahid/QuizApp",
     webapp: "https://brain-tumor.netlify.app/",
     // member: [
     //   {
@@ -514,6 +519,7 @@ export const projects = [
     id: 3,
     title: "Egg Timer App",
     date: "Dec 2021 - Apr 2022",
+    image:"https://private-user-images.githubusercontent.com/62205475/307587077-c5e1cc78-8efe-4c5f-ac01-79417d0fd70f.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDg4NjE0MTAsIm5iZiI6MTcwODg2MTExMCwicGF0aCI6Ii82MjIwNTQ3NS8zMDc1ODcwNzctYzVlMWNjNzgtOGVmZS00YzVmLWFjMDEtNzk0MTdkMGZkNzBmLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAyMjUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMjI1VDExMzgzMFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWY0M2YxNmZkZGFkZjRlYmJjMmE3ODBjYWRhNmRjYjljZWI1MmMwYWI4ZjRhZjc0YzBkYThmOWYxYWY3YzUwZWMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.yfrCXwyDQihiCUcXy-1wy_jSGfzoQEzCYFLS-Ei-O-A",
     description:"Developed a beautiful egg timer app to boil your eggs to perfection depending on how you prefer your eggs.",
     tags: ["Swift", "SwiftUI"],
     category: "iOS",
@@ -524,6 +530,7 @@ export const projects = [
     id: 10,
     title: "Weather App",
     date: "Jun 2023 - Jul 2023",
+    image:"https://private-user-images.githubusercontent.com/62205475/307586328-009049cc-5f34-4de1-b738-74768f52225a.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDg4NjE0NTUsIm5iZiI6MTcwODg2MTE1NSwicGF0aCI6Ii82MjIwNTQ3NS8zMDc1ODYzMjgtMDA5MDQ5Y2MtNWYzNC00ZGUxLWI3MzgtNzQ3NjhmNTIyMjVhLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAyMjUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMjI1VDExMzkxNVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWEwYWU3MjgzZmE0ZTljYjFkZWMzZTMwMGM2NTJlMTQ3OTFkY2VmZGRjMmNjZWU2OTI0ZTgwNjQxMTc5NTIzYWQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.20j8csBjqwfisO_sjXm1fHe3Tid2ZThD8iN6eF7SiLg",
     description:"Developed a dark-mode enabled weather app. You'll be able to check the weather for the current location based on the GPS data from the iPhone as well as by searching for a city manually.",
     tags: ["Swift", "SwiftUI", ],
     category: "iOS",
@@ -534,6 +541,7 @@ export const projects = [
     id: 4,
     title: "Tip Calculator",
     //date: "Jul 2021",
+    image:"https://private-user-images.githubusercontent.com/62205475/307586408-e42ddb79-2f93-4003-a3a8-c621c0d886ff.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDg4NjE0OTcsIm5iZiI6MTcwODg2MTE5NywicGF0aCI6Ii82MjIwNTQ3NS8zMDc1ODY0MDgtZTQyZGRiNzktMmY5My00MDAzLWEzYTgtYzYyMWMwZDg4NmZmLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAyMjUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMjI1VDExMzk1N1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWEwY2U5MjBiMjMzYzliYTk5NmQwYjhiMjYwNjdkMjVmYTI3M2E2ZjQ0ODJhMDY0ZTZmZTQyZjRjNWU4NzIyNmMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.NtplmgaMdR7IxLPzuiiT6hu4CbW_YOMSJTMuwF3Al5c",
     description:"Developed a Tip calculator in which the user can enter the amount of the bill and get to know about the tip he has to pay.",
     tags: ["Swift","SwiftUI"],
     category: "iOS",
