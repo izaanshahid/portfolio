@@ -1,5 +1,16 @@
+import spotify from "../images/spotify.png"
+import bmi from "../images/bmi.png"
+import egg from "../images/egg.png"
+import hemo from "../images/hemo.png"
+import lock from "../images/lock.png"
+import quiz from "../images/quiz.png"
+import tip from "../images/tip.png"
+import weather from "../images/weather.png"
+
+
+
 export const Bio = {
-  name: "Muhammad Izaan Shahid",
+  name: "Izaan Shahid",
   roles: [
     "Full Stack Developer",
     "iOS Developer",
@@ -141,35 +152,7 @@ export const skills = [
         image:
           "https://static-00.iconduck.com/assets.00/google-cloud-platform-logo-icon-2048x1824-pg4wzspq.png",
       },
-      // {
-      //   name: "Docker",
-      //   image:
-      //     "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
-      // },
-      // {
-      //   name: "Jenkins",
-      //   image:
-      //     "https://toppng.com/uploads/preview/jenkins-logo-11609365847mufysaivph.png",
-      // },
-      // {
-      //   name: "Nginx",
-      //   image: "https://download.logo.wine/logo/Nginx/Nginx-Logo.wine.png",
-      // },
-      // {
-      //   name: "Grafana",
-      //   image:
-      //     "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Grafana_logo.svg/1200px-Grafana_logo.svg.png",
-      // },
-      // {
-      //   name: "Kubernetes",
-      //   image:
-      //     "https://upload.wikimedia.org/wikipedia/commons/0/00/Kubernetes_%28container_engine%29.png",
-      // },
-      // {
-      //   name: "Prometheus",
-      //   image:
-      //     "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Prometheus_software_logo.svg/1200px-Prometheus_software_logo.svg.png",
-      // },
+    
     ],
   },
   {
@@ -185,16 +168,7 @@ export const skills = [
         image:
           "https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg",
       },
-      // {
-      //   name: "Jetpack Compose",
-      //   image:
-      //     "https://3.bp.blogspot.com/-VVp3WvJvl84/X0Vu6EjYqDI/AAAAAAAAPjU/ZOMKiUlgfg8ok8DY8Hc-ocOvGdB0z86AgCLcBGAsYHQ/s1600/jetpack%2Bcompose%2Bicon_RGB.png",
-      // },
-      // {
-      //   name: "XML",
-      //   image:
-      //     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBMw6_RdwKQ9bDFfnKDX1iwMl4bVJEvd9PP53XuIw&s",
-      // },
+      
       {
         name: "Android Studio",
         image:
@@ -315,69 +289,7 @@ export const experiences = [
     ],
     doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/1696514649120.jpeg?alt=media&token=e7f6757b-edfa-4138-a692-d6709eeef3e2",
   },
-  // {
-  //   id: 2,
-  //   img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Rudraksha.jpeg?alt=media&token=8f83f41e-d0a1-486f-9c7f-dd4cd1d09e8d",
-  //   role: "Android Developer Intern",
-  //   company: "Rudraksha Welffare Foundation",
-  //   date: "June 2021 - Oct 2021",
-  //   desc: "• Built RudraShakti - Astrologer App, with MVVM Architecture using Java and Android Studio integrating Firebase SDK. Created One to One video call integration with Socket.IO and Firebase cloud functions and integrated with Retrofit. Created Low Level Design and converted Figma design to XML code.",
-  //   skills: [
-  //     "Android",
-  //     "Java",
-  //     "Kotlin",
-  //     "XML",
-  //     "Node Js",
-  //     "Cloud Firestore",
-  //     "Firebase",
-  //     "Figma",
-  //   ],
-  //   doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/WhatsApp%20Image%202023-05-05%20at%2012.07.39%20AM.jpeg?alt=media&token=9f0e1648-568b-422d-bd0b-1f125f722245",
-  // },
-  // {
-  //   id: 3,
-  //   img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
-  //   role: "Fullstack Externship",
-  //   company: "Flipr",
-  //   date: "June 2023 - July 2023",
-  //   desc: "Built an employee management full stack web app used Docker and deployed on AWS ec2. I was the top performer in the program.",
-  //   skills: [
-  //     "ReactJS",
-  //     "Redux",
-  //     "NodeJs",
-  //     "Material UI",
-  //     "HTML",
-  //     "CSS",
-  //     "JavaScript",
-  //     "Docker",
-  //     "AWS",
-  //     "MongoDB",
-  //   ],
-  //   doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/1691181448873.jpeg?alt=media&token=ee85eb8f-7247-43cd-9a1d-ce9f58ea62a6",
-  // },
-  // {
-  //   id: 4,
-  //   img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/gdsc.jpeg?alt=media&token=c162329c-efaa-4be8-a173-8d3f4c48ea70",
-  //   role: "Android Developer",
-  //   company: "DSC KIIT",
-  //   date: "Nov2021 - Present",
-  //   desc: "As an Android developer at the Google Developers Student Club (GDCS), I have had the opportunity to work on exciting projects and collaborate with talented developers who share my passion for technology. Through my involvement with GDCS, I have also had the opportunity to host and participate in numerous events, including hackathons, study jams, and workshops.",
-  //   skills: [
-  //     "Leadership",
-  //     "Mobile Application Development",
-  //     "Kotlin",
-  //     "XML",
-  //     "Figma",
-  //   ],
-  // },
-  // {
-  //   id: 5,
-  //   img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/girlScript.jpeg?alt=media&token=e656a621-cf3c-4230-bf0f-e74b4cec6035",
-  //   role: "Open Source Contributor ",
-  //   company: "GirlScript Summer of Code",
-  //   date: "May 2023 - Present",
-  //   desc: "Contributed to different open-source projects and learn from industry experts",
-  // },
+
 ];
 
 export const education = [
@@ -399,22 +311,14 @@ export const education = [
     desc: "I completed my O/A Levels education at The City School, where I studied Science with Computer Science.",
     degree: "O/A Levels",
   },
-  // {
-  //   id: 2,
-  //   img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
-  //   school: "Methodist School, Dankuni",
-  //   date: "Apr 2017 - Apr 2019",
-  //   grade: "92.3%",
-  //   desc: "I completed my class 10 education at Methodist School, Dankuni, where I studied Science with Computer Application.",
-  //   degree: "ICSC(X), Science with Computer",
-  // },
+
 ];
 
 export const projects = [
   {
     id: 11,
     title: "Spotify (clone)",
-    image:"https://private-user-images.githubusercontent.com/62205475/307585622-55227871-3888-4259-9af4-f9e9169420d7.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDg4NjEyNzEsIm5iZiI6MTcwODg2MDk3MSwicGF0aCI6Ii82MjIwNTQ3NS8zMDc1ODU2MjItNTUyMjc4NzEtMzg4OC00MjU5LTlhZjQtZjllOTE2OTQyMGQ3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAyMjUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMjI1VDExMzYxMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWJiMGZlZWIwYjI3ZmMwMDA2MWVjZDdkNmEwNWY0MTlhMWQ3NzU4NGFkYmI5NTY0N2U5NTk4ODhhYjdkYzg5ODYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.1edLJtirpW_h5Bmj4U1E7z_ncCwW_pNAYJoYGtdx5gE",
+    image:spotify,
     description:
       "Developed a Spotify clone mobile application using React Native, StepZen, and GraphQL. Integrated StepZen and GraphQL to efficiently manage and retrieve music data. Implemented a component-based UI development approach. Utilized GraphQL subscriptions to implement real-time updates, ensuring users receive instant notifications",
     // image:
@@ -436,7 +340,7 @@ export const projects = [
     id: 9,
     title: "Hemo",
     date: "Jun 2023 - Jul 2023",
-    image:"https://github-production-user-asset-6210df.s3.amazonaws.com/62205475/307584724-ace7b4a6-7204-4cf5-ae04-f81f8dbdacd7.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240225%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240225T105058Z&X-Amz-Expires=300&X-Amz-Signature=cfde65e84a742ff9fa114d81aacf9117044e53ef0fc2a1be417532758a195504&X-Amz-SignedHeaders=host&actor_id=62205475&key_id=0&repo_id=643735605",
+    image:hemo,
     description:"A location specific mobile blood donation application using React Native and MongoDB. Implemented query optimization techniques in MongoDB to enhance database performance. User-centric design contributed to increased user engagement, reflected in higher user interaction. Received recognition of top 10 final year projects for Hemo, showcasing the project's innovation",
     tags: [
       "React Native",
@@ -455,32 +359,19 @@ export const projects = [
     id: 0,
     title: "iOS lock screen",
     date: "Apr 2023 - May 2023",
-    image:"https://private-user-images.githubusercontent.com/62205475/307586686-cc264794-b53f-444c-8410-770f13182c67.PNG?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDg4NjEzNjgsIm5iZiI6MTcwODg2MTA2OCwicGF0aCI6Ii82MjIwNTQ3NS8zMDc1ODY2ODYtY2MyNjQ3OTQtYjUzZi00NDRjLTg0MTAtNzcwZjEzMTgyYzY3LlBORz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAyMjUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMjI1VDExMzc0OFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTkwMGVmNzA3MWU4MWI4MGFiYjUzM2MyZWY4NDJiMzAwNTcyNWNkNmM0NWUxZTQyMDM1NmIzZTA1YjkwMjExNTEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.uOdoAhwLJYfbi6w384s8RwwZKohcn0S-Q2OcSZO_HUc",
+    image:lock,
     description:"Developed the lock screen of iOS in react native using react animated for smooth transitions and animations",
     tags: ["React Native","React Animated", "Redux"],
     category: "React Native",
     github: "https://github.com/izaanshahid/IOS-lock-screen",
     webapp: "https://podstream.netlify.app/",
-    // member: [
-    //   {
-    //     name: "Rishav Chanda",
-    //     img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-    //     linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-    //     github: "https://github.com/rishavchanda/",
-    //   },
-    //   {
-    //     name: "Upasana Chaudhuri",
-    //     img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-    //     linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-    //     github: "https://github.com/upasana0710",
-    //   },
-    // ],
+   
   },
   {
     id: 1,
     title: "BMI Calculator",
     date: "Oct 2022 - Jan 2023",
-    image:"https://private-user-images.githubusercontent.com/62205475/307587217-60259343-6f13-4ef5-ab87-3baf878a80d4.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDg4NjEwMjUsIm5iZiI6MTcwODg2MDcyNSwicGF0aCI6Ii82MjIwNTQ3NS8zMDc1ODcyMTctNjAyNTkzNDMtNmYxMy00ZWY1LWFiODctM2JhZjg3OGE4MGQ0LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAyMjUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMjI1VDExMzIwNVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWViNTQ3OTA0YTMxYzQzZmZlZDliZWZhNThmYjFmNDc5Y2E5MDA3MGU2MzQwNmYyZjg2MzIzMzE0OGE2NmM3MWEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.vEuCn8owYbQvtk5JVUb-hoJl0nOuSL9urgySGUmedJk",
+    image:bmi,
     description:"Developed a Body Mass Index calculator. Based on the user’s weight and height it will calculate their body mass and give a piece of health advice depending on whether if they have eaten too many pies or if they need to eat more pies.",
     tags: [
       "Swift",
@@ -494,32 +385,19 @@ export const projects = [
     id: 2,
     title: "Quiz App",
     date: "Jan 2023 - Mar 2023",
-    image:"https://private-user-images.githubusercontent.com/62205475/307587335-4cb66fd2-2632-4f17-9416-5baf3ce81167.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDg4NjExNjgsIm5iZiI6MTcwODg2MDg2OCwicGF0aCI6Ii82MjIwNTQ3NS8zMDc1ODczMzUtNGNiNjZmZDItMjYzMi00ZjE3LTk0MTYtNWJhZjNjZTgxMTY3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAyMjUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMjI1VDExMzQyOFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTQ1ZDFjN2EyMWQ5MThkOGIwOTgwNDlhZTEzMmQ1YmYzMzhiMmIwMjFmZTBhMzhiMzFiYTA2MTkwYzNhNTJmMDMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.DHLXa9KkHaqOQWr7upOc8_m4R40y6fXDK_eLhP8jgGI",
+    image:quiz,
     description:"Developed a Quiz app in which a user can select between true or false and get his score accordingly",
     tags: ["Swift", "SwiftUI"],
     category: "iOS",
     github: "https://github.com/izaanshahid/QuizApp",
     webapp: "https://brain-tumor.netlify.app/",
-    // member: [
-    //   {
-    //     name: "Rishav Chanda",
-    //     img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-    //     linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-    //     github: "https://github.com/rishavchanda/",
-    //   },
-    //   {
-    //     name: "Upasana Chaudhuri",
-    //     img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-    //     linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-    //     github: "https://github.com/upasana0710",
-    //   },
-    // ],
+    
   },
   {
     id: 3,
     title: "Egg Timer App",
     date: "Dec 2021 - Apr 2022",
-    image:"https://private-user-images.githubusercontent.com/62205475/307587077-c5e1cc78-8efe-4c5f-ac01-79417d0fd70f.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDg4NjE0MTAsIm5iZiI6MTcwODg2MTExMCwicGF0aCI6Ii82MjIwNTQ3NS8zMDc1ODcwNzctYzVlMWNjNzgtOGVmZS00YzVmLWFjMDEtNzk0MTdkMGZkNzBmLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAyMjUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMjI1VDExMzgzMFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWY0M2YxNmZkZGFkZjRlYmJjMmE3ODBjYWRhNmRjYjljZWI1MmMwYWI4ZjRhZjc0YzBkYThmOWYxYWY3YzUwZWMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.yfrCXwyDQihiCUcXy-1wy_jSGfzoQEzCYFLS-Ei-O-A",
+    image:egg,
     description:"Developed a beautiful egg timer app to boil your eggs to perfection depending on how you prefer your eggs.",
     tags: ["Swift", "SwiftUI"],
     category: "iOS",
@@ -530,7 +408,7 @@ export const projects = [
     id: 10,
     title: "Weather App",
     date: "Jun 2023 - Jul 2023",
-    image:"https://private-user-images.githubusercontent.com/62205475/307586328-009049cc-5f34-4de1-b738-74768f52225a.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDg4NjE0NTUsIm5iZiI6MTcwODg2MTE1NSwicGF0aCI6Ii82MjIwNTQ3NS8zMDc1ODYzMjgtMDA5MDQ5Y2MtNWYzNC00ZGUxLWI3MzgtNzQ3NjhmNTIyMjVhLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAyMjUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMjI1VDExMzkxNVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWEwYWU3MjgzZmE0ZTljYjFkZWMzZTMwMGM2NTJlMTQ3OTFkY2VmZGRjMmNjZWU2OTI0ZTgwNjQxMTc5NTIzYWQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.20j8csBjqwfisO_sjXm1fHe3Tid2ZThD8iN6eF7SiLg",
+    image:weather,
     description:"Developed a dark-mode enabled weather app. You'll be able to check the weather for the current location based on the GPS data from the iPhone as well as by searching for a city manually.",
     tags: ["Swift", "SwiftUI", ],
     category: "iOS",
@@ -541,64 +419,12 @@ export const projects = [
     id: 4,
     title: "Tip Calculator",
     //date: "Jul 2021",
-    image:"https://private-user-images.githubusercontent.com/62205475/307586408-e42ddb79-2f93-4003-a3a8-c621c0d886ff.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDg4NjE0OTcsIm5iZiI6MTcwODg2MTE5NywicGF0aCI6Ii82MjIwNTQ3NS8zMDc1ODY0MDgtZTQyZGRiNzktMmY5My00MDAzLWEzYTgtYzYyMWMwZDg4NmZmLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAyMjUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMjI1VDExMzk1N1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWEwY2U5MjBiMjMzYzliYTk5NmQwYjhiMjYwNjdkMjVmYTI3M2E2ZjQ0ODJhMDY0ZTZmZTQyZjRjNWU4NzIyNmMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.NtplmgaMdR7IxLPzuiiT6hu4CbW_YOMSJTMuwF3Al5c",
+    image:tip,
     description:"Developed a Tip calculator in which the user can enter the amount of the bill and get to know about the tip he has to pay.",
     tags: ["Swift","SwiftUI"],
     category: "iOS",
     github: "https://github.com/izaanshahid/TipCalculator",
     webapp: "https://whatsapp-clone-rishav.web.app",
   },
-  // {
-  //   id: 5,
-  //   title: "Todo Web App",
-  //   date: "Jun 2021",
-  //   description:
-  //     " A Todo Web App made with React JS, Redux, and Material UI. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the tasks and can create a new task. It has a calendar where users can see all the tasks on a particular date. It has a search bar where users can search for a particular task.",
-  //   image:
-  //     "https://camo.githubusercontent.com/84ac6ab6f378348ef28d8184062b7e9e3511a1252ae3966eaa49e8e998f732a7/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f74253230283938292e706e673f616c743d6d6564696126746f6b656e3d33643335646366322d626666322d343730382d393031632d343232383866383332386633",
-  //   tags: ["React Js", "Local Storage", "AWS Auth", "Node JS"],
-  //   category: "web app",
-  //   github: "https://github.com/rishavchanda/Todo-Web-App",
-  //   webapp: "https://rishav-react-todo.netlify.app/",
-  // },
-  // {
-  //   id: 6,
-  //   title: "Breaking Bad",
-  //   date: "Jun 2021",
-  //   description:
-  //     "A simple react app that shows the characters of the famous TV series Breaking Bad. It uses the Breaking Bad API to fetch the data. It also has a search bar to search for a particular character.",
-  //   image:
-  //     "https://camo.githubusercontent.com/937774368308a82419f53dd6eeb4a8675780e119636488b4e3cfe5d34859a72a/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f7425323028313534292e706e673f616c743d6d6564696126746f6b656e3d65613439383630632d303435362d343333342d616435372d336239346663303333363263",
-  //   tags: ["React Js", "API", "Axios", "Node JS"],
-  //   category: "web app",
-  //   github: "https://github.com/rishavchanda/Breaking-Bad",
-  //   webapp: "https://breaking-bad-webapp.netlify.app",
-  // },
-  // {
-  //   id: 7,
-  //   title: "Quiz App",
-  //   date: "Dec 2020 - Jan 2021",
-  //   description:
-  //     "A android quiz app made with Java and Firebase. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the quiz categories and can create a new quiz. It has a leaderboard where users can see the top 10 scorers. It has a search bar where users can search for a particular quiz.",
-  //   image:
-  //     "https://github-production-user-asset-6210df.s3.amazonaws.com/64485885/239726262-c1b061d1-d9d0-42ef-9f1c-0412d14bc4f6.gif",
-  //   tags: ["Java", "Android Studio", "Firebase", "Google Auth"],
-  //   category: "android app",
-  //   github: "https://github.com/rishavchanda/Quiz-Earn",
-  //   webapp: "https://github.com/rishavchanda/Quiz-Earn",
-  // },
-  // {
-  //   id: 8,
-  //   title: "Face Recognition",
-  //   date: "Jan 2021",
-  //   description:
-  //     "A Face recognition python app made with OpenCV. It uses face_recognition library to detect faces. It uses the webcam to detect faces. It also has a search bar to search for a particular face.",
-  //   image:
-  //     "https://dontrepeatyourself.org/media/face-recognition-with-python-dlib-and-deep-learning_cezKZBj.png",
-  //   tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
-  //   category: "machine learning",
-  //   github: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
-  //   webapp: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
-  // },
 ];
 
