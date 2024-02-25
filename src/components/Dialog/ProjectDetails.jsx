@@ -200,7 +200,7 @@ const ProjectDetails = ({ openModal, setOpenModal }) => {
           />
           <Image src={project?.image} />
           <Title>{project?.title}</Title>
-          <Date>{project.date}</Date>
+          {/* <Date>{project.date}</Date> */}
           <Tags>
             {project?.tags.map((tag) => (
               <Tag>{tag}</Tag>
@@ -238,9 +238,9 @@ const ProjectDetails = ({ openModal, setOpenModal }) => {
             <Button dull href={project?.github} target="new">
               View Code
             </Button>
-            <Button href={project?.webapp} target="new">
+            {/* <Button href={project?.webapp} target="new">
               View Live App
-            </Button>
+            </Button> */}
           </ButtonGroup>
         </Wrapper>
       </Container>
