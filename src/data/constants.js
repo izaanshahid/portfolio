@@ -19,10 +19,10 @@ export const Bio = {
     "Programmer",
   ],
   description:
-    "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+    "I am a dynamic and adaptable individual, consistently driven to embrace fresh challenges. Fueled by a fervor for continuous learning, I am committed to producing top-notch results. Armed with a positive mindset and a commitment to growth, I stand prepared to make a significant impact and accomplish remarkable feats.",
   github: "https://github.com/izaanshahid",
   resume:
-    "https://drive.google.com/file/d/19SgFNUZYXLkUAL27X6nJDgD71bca80i4/view?usp=share_link",
+    "https://drive.google.com/file/d/1zdI8AKIymlYV771PTmYYAGA9DWhB__uI/view?usp=share_link",
   linkedin: "https://www.linkedin.com/in/izaan-shahid-aa453912b",
   twitter: "https://twitter.com/RishavChanda",
   insta: "https://www.instagram.com/izaanshahid_/",
